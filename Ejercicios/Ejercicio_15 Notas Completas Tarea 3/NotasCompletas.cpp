@@ -123,6 +123,10 @@ int main(int argc, char const *argv[]){
 
                                                                                         cout<<"Su calificacion es F ---";
                                                                                              
+                                                                                    }else{
+
+                                                                                        cout <<"Ingrese una nota entre 0 y 100";
+
                                                                                     }
                                                       
                                                                                 }
