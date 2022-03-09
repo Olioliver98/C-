@@ -17,16 +17,20 @@ void productos(int opcion)
             cout<<"*****************"<<endl;
             cout<<"1 - Capuccino "<<endl;
             cout<<"2 - Expresso "<<endl;
-            cin>> opcionProducto;
+
+            cout << "Ingrese una opcion: "<<endl;
+            cin >> opcionProducto;
+
+
             
             switch (opcionProducto)
             {
             case 1: 
-                AgregarProducto("Capuccino", 1, 40);
+                AgregarProducto("1. Capuccino.....L. 40.00", 1, 40);
                 break;
 
             case 2: 
-                AgregarProducto("Expresso", 1, 30);
+                AgregarProducto("1. Expresso......L. 30.00", 1, 30);
                 break;
                 
             default:
