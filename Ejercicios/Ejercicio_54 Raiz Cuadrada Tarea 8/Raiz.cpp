@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
     cout<<"\nIngrese el numeo deseado"<<endl;
     cin >> a;
 
-    cout << "\nLa raiz cuadrada de "<< a <<" es "<< sqrt(a);
+    cout << "\nLa raiz cuadrada de "<< a <<" es "<< raizcuadrada(a);
 
     return 0;
 }
