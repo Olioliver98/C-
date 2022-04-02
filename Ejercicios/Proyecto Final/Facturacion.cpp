@@ -1,9 +1,11 @@
 #include <iostream>
 #include <cstdlib>
-#include "AgregarFact.h"
 
 using namespace std;
 
+
+
+// Opciones de Facturacion
 void facturacion()
 {
     int opcion;
@@ -14,24 +16,10 @@ void facturacion()
     cout << "1. Agregar factura         "<<endl;
     cout << "2. Agegar factura 3ra edad "<<endl;
     cout << "3. Cotizar producto        "<<endl;
+
+    cout<<"Ingrese una opcion"<<endl;
     cin >> opcion;
-
-    switch (opcion)
-    {
-    case 1:
-    {
-        
-    }
-
-        break;
     
-    default:
-        break;
-    }
-
-
-
-
 
 
 

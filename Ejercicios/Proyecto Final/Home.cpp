@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include "facturacion.h"
+#include "Facturacion.h"
 
 using namespace std;
 
@@ -25,6 +25,12 @@ int main(int argc, char const *argv[])
     // Menu Home
     system("color 7"); //  Cambia el color de letra a blanco
     system("cls");
+
+
+
+
+    cout <<"        SUPER FARMACIAS EN SALUD      "<<endl;
+
     cout <<"         Seleccione una opcion        "<<endl;
     cout <<"                                      "<<endl;
     cout <<" 1. Caja                              "<<endl;
