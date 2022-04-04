@@ -2,13 +2,14 @@
 #include <cstdlib>
 #include "Lista-d-productos.h"
 
+
 using namespace std;
 
 
 //(void AgregarProducto) Sirve para agregar un producto a la factura.
 void AnexarProducto (string descripcion, int cantidad, double precio);
 
-void Productos (int opcion)
+void Productos(int opcion)
 {
 
     system("cls");
@@ -86,12 +87,12 @@ void Productos (int opcion)
                                 
                 }
                 
-                        default:
-                        { 
-                                cout<<" Seleccione una opcion valida"<<endl; 
-                                return;
-                                break;
-                        }
+                default:
+                { 
+                        cout<<" Seleccione una opcion valida"<<endl; 
+                        return;
+                        break;
+                }
 
 
 

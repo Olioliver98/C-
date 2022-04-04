@@ -1,5 +1,6 @@
 #include <iostream>
-#include <cstdlib>
+
+using namespace std;
 
 void AnexarProducto (string descripcion, int cantidad, double precio);
 
