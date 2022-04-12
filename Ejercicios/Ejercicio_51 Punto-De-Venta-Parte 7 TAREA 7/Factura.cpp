@@ -4,6 +4,7 @@ using namespace std;
 
 double subtotal, Total, impuesto = 0.15;
 string ListaProducto;
+
 void AgregarProducto(string descripcion, int cantidad, double precio)
 {
 
