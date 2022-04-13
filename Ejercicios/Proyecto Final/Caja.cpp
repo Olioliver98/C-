@@ -1,7 +1,8 @@
 #include <iostream>
+#include <cstdlib>
 #include "facturacion.h"
 #include "Productos.h"
-#include "Recibo.h"
+
 
 using namespace std;
 
@@ -55,3 +56,48 @@ void ImprimirFactura()
     cout<< "____________________________________________"<<endl<<endl;;
     system("pause");
 }
+
+// Se meustra la opcion de caja en pantalla e imprime los valores
+void Caja()
+{
+    int imprimir;
+    double cant = 0, cambio = 0;
+    
+    // Nuevamente se debe volver a calcular el total para mostarlo en este void
+    Total = impuesto + subtotal;
+    cout << "El total a pagar es de L. "<< Total <<endl<<endl;
+    cout << "Ingrese la cantidad recibida"<<endl;
+    cin >> cant;
+
+    cambio = cant - Total;
+    cout<<"El cambio es de: L. "<< cambio <<endl;
+
+
+    cout<<"Desea impimir la factura en transito?"<<endl;
+    cout<<" 1. Si   2. No"<<endl;
+    cin>> imprimir;
+
+
+    // Opcion de imprimir o no la factura.
+    switch (imprimir)
+    {
+        case 1:
+        {
+            ImprimirFactura();
+            break;
+        }
+        
+    case 2:
+        {
+            break;
+        }
+        
+    default:
+        {
+            cout<<"Seleccione una opcion valida"<<endl;
+        }
+        
+    } //Cierra switch
+    
+}// Cierra Void Caja
+

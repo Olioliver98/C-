@@ -2,7 +2,6 @@
 #include <cstdlib>
 #include "facturacion.h"
 #include "Productos.h"
-#include "Recibo.h"
 
 using namespace std;
 
@@ -83,6 +82,7 @@ void productos(int opcion)
                 case 9:
                         {
                             cout<<"__________________________________________________________________________________________________"<<endl<<endl;
+                            cout<<"                                        ATENCION!                                                "<<endl<<endl;
                             cout<<" Ha seleccionado un medicamento controlado, favor revisar que la receta cumpla con los requisitos. "<<endl;
                             cout<<"__________________________________________________________________________________________________"<<endl;
                             AgregarProducto("1. Zaldiar x 50 tabs L. 1857.12", 1, 1857.12);
@@ -179,6 +179,7 @@ void productos(int opcion)
                 case 9:
                         {
                             cout<<"__________________________________________________________________________________________________"<<endl<<endl;
+                            cout<<"                                        ATENCION!                                                "<<endl<<endl;
                             cout<<" Ha seleccionado un medicamento controlado, favor revisar que la receta cumpla con los requisitos. "<<endl;
                             cout<<"__________________________________________________________________________________________________"<<endl;
                             AgregarProducto("1. Zaldiar x 50 tabs L. 1382.94", 1, 1382.94);
