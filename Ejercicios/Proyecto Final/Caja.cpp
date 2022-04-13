@@ -22,7 +22,7 @@ void ImprimirFactura()
 {
     system("cls");
     cout<<"**************************************************"<<endl;
-    cout<<"                     RECIBO DE PAGO                      "<<endl;
+    cout<<"                 RECIBO DE PAGO                   "<<endl;
     cout<<"**************************************************"<<endl;
     cout<<endl;
 
