@@ -3,7 +3,10 @@
 #include "Home.h"
 #include "facturacion.h"
 #include "Productos.h"
+
 #include "Caja.h"
+#include "Reloj.h"
+#include "SAD.h"
 
 
 using namespace std; 

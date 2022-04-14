@@ -1,7 +1,12 @@
 #include <iostream>
 #include <cstdlib>
+#include "Home.h"
 #include "facturacion.h"
 #include "Productos.h"
+
+#include "Caja.h"
+#include "Reloj.h"
+#include "SAD.h"
 
 
 using namespace std;
@@ -56,6 +61,7 @@ void ImprimirFactura()
     cout<< "____________________________________________"<<endl<<endl;;
     system("pause");
 }
+
 
 // Se meustra la opcion de caja en pantalla e imprime los valores
 void Caja()

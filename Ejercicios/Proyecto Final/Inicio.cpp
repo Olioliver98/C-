@@ -1,10 +1,7 @@
 #include <iostream>
 #include <cstdlib>
-#include "Home.h"
-#include "facturacion.h"
-#include "Productos.h"
 
-#include "Caja.h"
+#include "Home.h"
 
 using namespace std;
 
@@ -40,7 +37,7 @@ int main(int argc, char const *argv[])
         break;
     
     default:
-            cout<<"Turning off"<<endl;
+            cout<<" Xion is turning off"<<endl;
         break;
     }
 
