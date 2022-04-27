@@ -18,9 +18,8 @@ void Sad()
 
     cout <<"        1. Asignar un pedido"<<endl; // listo
     cout <<"        2. Recibir un pedido"<<endl; // en proceso
-    cout <<"        3. Historial de pedido"<<endl;
-    cout <<"        4. Home"<<endl;
-    cout <<"        5. Salir"<<endl;
+    cout <<"        3. Home"<<endl;
+    cout <<"        4. Salir"<<endl;
     cin >> opci;
 
     switch (opci)
@@ -35,14 +34,13 @@ void Sad()
             Recibir();
             break;
         }
-
-    // Falta el 3.
-    case 4:
+   
+    case 3:
         {
             Home();
             break;
         }   
-    case 5:
+    case 4:
         {   
             break;
         }

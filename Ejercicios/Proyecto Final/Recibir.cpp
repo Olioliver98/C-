@@ -16,7 +16,7 @@ void Recibir()
 {
 
     system("cls");
-    int dame, historial;
+    int dame;
 
     cout<< "Ingrese numero de pedido"<<endl;
     cin >> dame;
