@@ -11,7 +11,7 @@
 
 using namespace std;
 
-double subtotal, Total, impuesto = 0.15;
+double subtotal = 0, Total = 0, impuesto = 0.15;
 string ListaProducto;
 
 // Los productos y subtotales se iran sumando conforme los agrega el usuario
@@ -60,6 +60,8 @@ void ImprimirFactura()
     cout<< "        Gracias por su compra              "<<endl;
     cout<< "____________________________________________"<<endl<<endl;;
     system("pause");
+
+    Home();
 }
 
 
@@ -101,6 +103,7 @@ void Caja()
     default:
         {
             cout<<"Seleccione una opcion valida"<<endl;
+            break;
         }
         
     } //Cierra switch

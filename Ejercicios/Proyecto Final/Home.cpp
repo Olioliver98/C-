@@ -21,8 +21,7 @@ void Home()
     cout <<"         1. Facturacion                       "<<endl;
     cout <<"         2. Caja                              "<<endl;
     cout <<"         3. Servicio a domicilio              "<<endl;
-    cout <<"         4. Reservacion                       "<<endl;
-    cout <<"         5. Opciones adicionales              "<<endl;
+    cout <<"         4. Cerrar programa                   "<<endl;
     cin >> home;
 
     switch (home)
@@ -37,19 +36,24 @@ void Home()
 
         // Lleva a la funcin de Caja.   
         case 2:
-            {
-                Caja();
-                break;
-            }
+        {
+            Caja();
+            break;
+        }
 
         // Lleva a la funcion de Servicio a Domiciolio ( SAD ).
         case 3:
-            {
-                Sad();
-                break;
+        {
+            Sad();
+            break;
 
-            } 
+        } 
 
+        case 4:
+        {
+            cout<<" Xion is turning off"<<endl;
+            break;
+        }
 
         // Por si se selecciona una opcion que no valida.
         default:

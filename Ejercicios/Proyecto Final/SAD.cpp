@@ -5,8 +5,7 @@
 #include "facturacion.h" // Duda
 
 #include "Reloj.h" // -> Muestra la hora.
-#include "Asignar.h"
-#include "Recibir.h"
+#include "OpciSad.h"
 
 void Sad()
 {
@@ -18,8 +17,8 @@ void Sad()
 
     cout <<"        1. Asignar un pedido"<<endl; // listo
     cout <<"        2. Recibir un pedido"<<endl; // en proceso
-    cout <<"        3. Home"<<endl;
-    cout <<"        4. Salir"<<endl;
+    cout <<"        3. Historial"<<endl;
+    cout <<"        4. Home"<<endl;
     cin >> opci;
 
     switch (opci)
@@ -37,11 +36,12 @@ void Sad()
    
     case 3:
         {
-            Home();
+            History();
             break;
         }   
     case 4:
         {   
+            Home();
             break;
         }
         
